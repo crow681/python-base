@@ -1,0 +1,53 @@
+# config
+# 对象数据
+# 环境
+evn:
+  test: &test_host
+    host: 192.168.1.1
+    port: 8899
+  repr:
+    host: 200.1.25.1
+    port: 80
+  pro:
+    host: 20.43.1.19
+    port: 443
+  testurl:
+    <<: *test_host
+
+# 邮件
+mail:
+  sender: 1286435480@qq.com
+  passwd: 123456
+  reserice: 1224323615@qq.com
+
+# 数组类型1
+list1:
+  - 1
+  - 2
+  - 3
+# 嵌套数组
+list2:
+  -
+    id: 1
+    name: 张三
+    price: 100
+
+  -
+    id: 2
+    name: 李四
+    price: 500
+
+# 复合结构
+fu:
+languages:
+  - java
+  - python
+  - c++
+websites:
+  yaml: yaml.org
+  java: java.org
+  python: python.org
+  c++: c#.org
+
+
+
