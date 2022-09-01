@@ -3,6 +3,7 @@
 # @Time    : 2022/8/16 15:17
 # @Author  : wangjun
 # @File    : 日志模块.py
+<<<<<<< HEAD
 
 import logging
 from logging import config
@@ -73,3 +74,5 @@ if __name__ == "__main__":
      cn = conflog()
      cn.info('使用yaml创建配置字典')
 
+=======
+>>>>>>> 6575801c7251cb280fbdc6e05cc349ae6d2975ea
